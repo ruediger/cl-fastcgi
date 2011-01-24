@@ -1,7 +1,1 @@
-ReadMe for fcgi
-
-Author: Rüdiger Sonderfeld <ruediger@c-plusplus.de>
-
-
-WARNING: This library isn't stable yet! It was only tested with SBCL 0.9.14
-         and lighttpd!
+cl-fastcgi is a Common Lisp library for FastCGI. I wrote the library in 2006 with SBCL 0.9.14 and tested it with lighttpd. Because I stopped working on the project the library was intended for development has ceased and it is not very well tested. Maybe the code is still useful to somebody else. Therefore I moved the code from monotone to git and published it on github.
