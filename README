@@ -1,0 +1,7 @@
+ReadMe for fcgi
+
+Author: Rüdiger Sonderfeld <ruediger@c-plusplus.de>
+
+
+WARNING: This library isn't stable yet! It was only tested with SBCL 0.9.14
+         and lighttpd!

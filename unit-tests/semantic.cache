@@ -1,0 +1,58 @@
+;; Object unit-tests/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "unit-tests/"
+  :tables (list 
+   (semanticdb-table "package.lisp"
+    :major-mode 'lisp-mode
+    :tags '(("defpackage" code nil nil [1 85]))
+    :file "package.lisp"
+    :pointmax 86
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "fcgi-test.lisp"
+    :major-mode 'lisp-mode
+    :tags '(("in-package" code nil nil [1 24]) ("def-suite" code nil nil [26 58]) ("in-suite" code nil nil [60 81]))
+    :file "fcgi-test.lisp"
+    :pointmax 82
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "fcgi-test.asd"
+    :major-mode 'lisp-mode
+    :tags '(("in-package" code nil nil [62 85]) ("asdf:perform" function (:parent "asdf:test-op=" :arguments ("op" "system")) nil [87 191]))
+    :file "fcgi-test.asd"
+    :pointmax 191
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "unit-test-suite.lisp"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "unit-test-suite.lisp"
+    :pointmax 143
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "binary-mapper-test.lisp"
+    :major-mode 'lisp-mode
+    :tags '(("in-package" code nil nil [1 24]) ("def-suite" code nil nil [26 72]) ("in-suite" code nil nil [74 109]))
+    :file "binary-mapper-test.lisp"
+    :pointmax 622
+    :unmatched-syntax '((thing 111 . 622) (thing 111 . 622) (thing 111 . 621) (thing 111 . 621))
+    )
+   (semanticdb-table "misc-test.lisp"
+    :major-mode 'lisp-mode
+    :tags '(("in-package" code nil nil [1 24]) ("def-suite" code nil nil [26 58]) ("in-suite" code nil nil [60 81]) ("test" code nil nil [83 149]) ("test" code nil nil [566 914]) ("test" code nil nil [916 1063]))
+    :file "misc-test.lisp"
+    :pointmax 1064
+    :unmatched-syntax '((thing 151 . 446) (thing 151 . 446) (thing 151 . 446) (thing 448 . 549) (thing 448 . 564))
+    )
+   (semanticdb-table "fcgi-data-test.lisp"
+    :major-mode 'lisp-mode
+    :tags 'nil
+    :file "fcgi-data-test.lisp"
+    :pointmax 1076
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )
